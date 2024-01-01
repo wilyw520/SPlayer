@@ -31,15 +31,9 @@
       </div>
       <!-- 搜索框 -->
       <SearchInp />
-      <!-- GitHub -->
+ <!-- GitHub -->
       <Transition name="fade" mode="out-in">
-        <n-button v-if="showGithub" class="github" circle quaternary @click="openGithub">
-          <template #icon>
-            <n-icon size="20">
-              <SvgIcon icon="github" />
-            </n-icon>
-          </template>
-        </n-button>
+        
       </Transition>
     </div>
     <div class="right">
